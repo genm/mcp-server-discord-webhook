@@ -59,6 +59,17 @@ Example:
 </use_mcp_tool>
 ```
 
+## Development
+
+This project uses GitHub Actions for continuous integration and automated publishing to npm. When you push a new version tag (e.g., `v1.0.0`), it will automatically:
+
+1. Build the package
+2. Run tests
+3. Publish to npm
+4. Create a GitHub release
+
+For more details about the release process, see [CHANGELOG.md](./CHANGELOG.md).
+
 ## License
 
 MIT

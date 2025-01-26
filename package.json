@@ -31,6 +31,8 @@
   "files": [
     "build",
     "README.md",
+    "README.ja.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
   "publishConfig": {
