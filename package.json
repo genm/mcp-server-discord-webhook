@@ -1,0 +1,46 @@
+{
+  "name": "@genm/mcp-server-discord-webhook",
+  "version": "0.1.0",
+  "description": "Discord Webhook MCP Server",
+  "main": "build/index.js",
+  "bin": {
+    "mcp-server-discord-webhook": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "watch": "tsc -w",
+    "start": "node build/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "discord",
+    "webhook"
+  ],
+  "author": "genm",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genm/mcp-server-discord-webhook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/genm/mcp-server-discord-webhook/issues"
+  },
+  "homepage": "https://github.com/genm/mcp-server-discord-webhook#readme"
+}
