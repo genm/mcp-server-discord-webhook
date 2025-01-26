@@ -1,6 +1,6 @@
 # MCP Server Discord Webhook
 
-Discord WebhookにメッセージをポストするためのMCPサーバーです。
+Discord Webhookを利用してメッセージをポストするためのMCPサーバーです。
 
 ## インストール
 
