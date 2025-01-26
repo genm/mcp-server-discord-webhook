@@ -21,7 +21,7 @@
   "author": "genm",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.1.0",
+    "@modelcontextprotocol/sdk": "^1.4.1",
     "axios": "^1.6.5"
   },
   "devDependencies": {
@@ -36,6 +36,7 @@
     "LICENSE"
   ],
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "repository": {
