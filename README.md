@@ -1,16 +1,18 @@
 # MCP Server Discord Webhook
 
-Discord Webhookを利用してメッセージをポストするためのMCPサーバーです。
+An MCP server for posting messages to Discord webhooks.
 
-## インストール
+[日本語のREADME](./README.ja.md)
+
+## Installation
 
 ```bash
-npm install @genm/mcp-server-discord-webhook
+npm install @genpm/mcp-server-discord-webhook
 ```
 
-## 設定
+## Configuration
 
-MCPの設定ファイルに以下を追加してください：
+Add the following to your MCP configuration file:
 
 ```json
 {
@@ -19,10 +21,10 @@ MCPの設定ファイルに以下を追加してください：
       "command": "npx",
       "args": [
         "-y",
-        "@genm/mcp-server-discord-webhook"
+        "@genpm/mcp-server-discord-webhook"
       ],
       "env": {
-        "DISCORD_WEBHOOK_URL": "あなたのDiscord Webhook URL"
+        "DISCORD_WEBHOOK_URL": "your-discord-webhook-url"
       },
       "alwaysAllow": [
         "send_message"
@@ -32,35 +34,35 @@ MCPの設定ファイルに以下を追加してください：
 }
 ```
 
-## 機能
+## Features
 
 ### send_message
 
-Discordにメッセージを送信します。
+Sends a message to Discord.
 
-パラメータ:
-- `content`: メッセージ内容（必須）
-- `username`: 表示名（オプション）
-- `avatar_url`: アバターURL（オプション）
+Parameters:
+- `content`: Message content (required)
+- `username`: Display name (optional)
+- `avatar_url`: Avatar URL (optional)
 
-使用例:
+Example:
 ```typescript
 <use_mcp_tool>
 <server_name>discord-webhook</server_name>
 <tool_name>send_message</tool_name>
 <arguments>
 {
-  "content": "テストメッセージ",
-  "username": "カスタム名"
+  "content": "Test message",
+  "username": "Custom Name"
 }
 </arguments>
 </use_mcp_tool>
 ```
 
-## ライセンス
+## License
 
 MIT
 
-## 作者
+## Author
 
 genm
