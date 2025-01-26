@@ -1,5 +1,5 @@
 {
-  "name": "@genm/mcp-server-discord-webhook",
+  "name": "@genpm/mcp-server-discord-webhook",
   "version": "0.1.0",
   "description": "Discord Webhook MCP Server",
   "type": "module",
@@ -18,7 +18,7 @@
     "discord",
     "webhook"
   ],
-  "author": "genm",
+  "author": "genpm",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.1.0",
@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genm/mcp-server-discord-webhook.git"
+    "url": "git+https://github.com/genpm/mcp-server-discord-webhook.git"
   },
   "bugs": {
-    "url": "https://github.com/genm/mcp-server-discord-webhook/issues"
+    "url": "https://github.com/genpm/mcp-server-discord-webhook/issues"
   },
-  "homepage": "https://github.com/genm/mcp-server-discord-webhook#readme"
+  "homepage": "https://github.com/genpm/mcp-server-discord-webhook#readme"
 }
